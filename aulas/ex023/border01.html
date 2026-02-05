@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Tags semanticas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blueviolet;
+            margin: 0px;
+        }
+
+        header{
+            border-radius: 5px;
+            box-shadow: 4px 4px 4px #3b155f79;
+            background-color: #621fa0;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+        }
+       
+        h1{
+            color: #f6c8ff;
+            font-style: oblique;
+        }
+
+        nav{
+            background-color: rgb(173, 111, 231);
+            padding: 5px;
+        }
+        nav > a{
+            padding: 5px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: #f6c8ff;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+
+        }
+        main > #artigo{
+            margin: 10px;
+            background-color: #621fa0;
+            padding: 2px;
+            border-radius: 5px;
+            text-justify: auto;
+            border: 0px;
+        }
+        article > h2{
+            
+            text-align: center;
+            color: #f6c8ff;
+        }
+        article > p{
+            background-color: #f8f8f8;
+            padding: 5px 5px 5px 5px;
+            color: #868686;
+        }
+        aside{
+            background-color: #332046;
+            font-size: small;
+            font-weight: bolder;
+            text-align: center;
+            color: #f6c8ff;
+        }
+        
+        footer{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #45186e;
+            padding: 6px;
+            font-weight: bolder;
+            color: #f6c8ff;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site de noticias</h1>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">News</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto"> 
+            <p></p>
+        </section>
+        <section id="artigo">
+            <article>
+                <h2> QUE RELOGIOS BONITOS! </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facere aliquam veritatis quis odio maxime sequi expedita dolor mollitia, nisi velit aspernatur esse quibusdam suscipit eum, voluptatem qui. Suscipit, voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda aspernatur molestiae adipisci non quis exercitationem dolores cum velit vero repudiandae sequi optio, natus nulla molestias tenetur quos. Nam, iusto! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, inventore tempore ratione, mollitia culpa explicabo reprehenderit distinctio quasi enim libero id quidem facere repellendus deleniti magni commodi fuga praesentium similique.</p>
+                <aside>
+                    <p>Relogios feitos por Hyan</p>
+                </aside>
+            </article>
+
+        </section>
+         
+    </main>
+    <footer>
+        <p>Desenvolvido por Portal Produções: </p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
