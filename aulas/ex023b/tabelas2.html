@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+        
+        td, th{
+            
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População dos estados</caption>
+        <thead>
+            <tr>
+               <th scope="col">Estados</th>
+               <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">123 456 288</td>
+            </tr>
+             <tr>
+                <td>Bahia</td>
+                <td class="num">523 456 788</td>
+            </tr>
+             <tr>
+                <td>Minas Gerais</td>
+                <td class="num">863 436 988</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="col">População Total</th>
+                <td><strong>1.510.350.064</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
